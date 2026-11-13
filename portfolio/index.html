@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio — Enzo Araujo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav_bar">
+    <span class="nav-logo">Enzo Araujo</span>
+
+    <!-- Grupo de ações: Contato + Tema -->
+    <div class="nav-actions">
+      <!-- Botão de contato com dropdown -->
+      <div class="contact-wrapper">
+        <button id="contact-toggle" class="icon-btn" title="Contato" aria-label="Mostrar contatos">
+          <img src="src/contact.png" alt="Contato">
+        </button>
+
+        <div id="contact-menu" class="contact-menu">
+          <a href="mailto:enzoabpmp@gmail.com">📧 Email</a>
+          <a href="https://www.github.com/mitt0w" target="_blank">💻 GitHub</a>
+          <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">💼 LinkedIn</a>
+          <a href="https://www.wa.me/5571999982698" target="_blank">📱 WhatsApp</a>
+        </div>
+      </div>
+
+      <!-- Botão de tema -->
+      <button id="theme-toggle" class="theme-toggle icon-btn" title="Alternar tema" aria-label="Alternar tema">
+        <img id="theme-icon" src="src/dark.png" alt="Mudar para modo claro">
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-tag">Desenvolvedor &amp; Criador</p>
+        <h1>Olá, eu sou <span class="highlight">Enzo Araujo</span>.</h1>
+        <p class="hero-desc">
+          Construo projetos web com foco em simplicidade, performance e bom design.
+          Aqui você encontra um pouco do que venho desenvolvendo.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">Ver projetos</a>
+          <a href="#contact" class="btn btn-outline">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title">Sobre mim</h2>
+      <p class="section-text">
+        Futuro programador full stack, busco sempre aprender habilidades novas e aperfeiçoar as que já possuo.
+        Estudante de Engenharia de Software na UCSAL e formado em Técnico em Desenolvimento de Sistemas pelo SENAI.
+        No momento, tenho experiência com HTML, CSS, JavaScript, Git e GitHub, além de noções de UI/UX e responsividade. Também tenho experiência com Java e Python, mas meu foco atual é o desenvolvimento web.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title">Habilidades</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Git &amp; GitHub</li>
+        <li>UI / UX básico</li>
+        <li>Responsividade</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Banco de dados (MySQL, PostgreSQL)</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">Projetos</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Portfólio pessoal</h3>
+          <p>Este site — feito em HTML, CSS e JS puro, com tema claro/escuro.</p>
+          <a href="https://www.github.com/mitt0w" target="_blank">Ver no GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Em breve…</h3>
+          <p>Espaço reservado para um próximo projeto.</p>
+          <a href="https://www.github.com/mitt0w" target="_blank">Ver no GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Em breve…</h3>
+          <p>Espaço reservado para um próximo projeto.</p>
+          <a href="https://www.github.com/mitt0w" target="_blank">Ver no GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title">Contato</h2>
+      <p class="section-text">Quer conversar? Me encontre em:</p>
+      <div class="contact-links">
+        <a href="mailto:enzoabpmp@gmail.com">📧 Email</a>
+        <a href="https://www.github.com/mitt0w" target="_blank">💻 GitHub</a>
+        <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">💼 LinkedIn</a>
+        <a href="https://www.wa.me/5571999982698" target="_blank">📱 WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Enzo Araujo. Todos os direitos reservados.</p>
+    <p>Ícones por <a href="https://www.icons8.com/" target="_blank">Icons8</a></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
